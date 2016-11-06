@@ -1,1 +1,75 @@
+/*
+  *Author: U'el Azdrian Small
+  *Date:  November 6th, 2016
+  *Website: Simple Quiz
+  *
+*/
+
+
+/* Custom page header
+---------------------------------------------- */
+.header {
+  padding-bottom: 20px;
+  border-bottom: 5px solid #e5e5e5;
+}
+
+/* testArea styles
+---------------------------------------------- */
+.question-status {
+    font-weight: 600;
+}
+
+.question-status,#testArea,h5{
+padding-left: 30px; 
+}
+
+.start-button,.submit-answer {
+    margin: 50px 0 0 0;
+}
+
+
+.jumbotron {
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+
+/* Custom page footer */
+.footer {
+  padding-top: 10px;
+  color: #777;
+  border-top: 5px solid #e5e5e5;
+}
+
+/* Media queries
+---------------------------------------------- */
+
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
 
