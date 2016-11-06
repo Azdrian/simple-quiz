@@ -3,4 +3,4 @@ This project is one of my side-projects, coded in vanilla JavaScript. Its a simp
 
 #Notice
 /* This project is a work in progress. New features and major changes coming soon.*/
-ffffff
+
