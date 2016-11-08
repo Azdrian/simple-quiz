@@ -1,12 +1,12 @@
 //A Simple Quiz Engine
 /* 
   *Author: U'el Azdrian small
-  *Date: Copyright, August 15 2016
+  *Date:August 15 2016
   *File Name: quiz.js
   *Website: https://azdrian.github.io/simple-quiz-engine/
 */
 
-//assign  variables : var correct = 0 etc;
+//assign  variables
 var pos = 0,
 	testArea, testStatus, question, choice, choices, choiceA, choiceB, choiceC, correct = 0;
 
@@ -49,11 +49,6 @@ function renderQuestion() {
 		var body = document.getElementsByTagName("p")[0];
 		body.appendChild(button);
 
-		// 3. Add event handler
-		/* button.addEventListener("click", function () {
-			alert("did something");
-		});
-		*/
 
 		pos = 0;
 		correct = 0;
@@ -93,16 +88,7 @@ function checkAnswer() {
 	if (choice === questions[pos][4]) {
 		correct++;
 	}
-	/*
-	Future feature to add: 
-	shows wrong or correct answer
-	show all te user's answer and the quiz answer to compare results
 	
-	else {
-			//print answer is incorrect
-			document.write('Sorry. The correct answer is ' + questions[pos][4]);
-		}
-	*/
 	pos++;
 	renderQuestion();
 }
