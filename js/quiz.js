@@ -1,6 +1,10 @@
 //A Simple Quiz Engine
-//Problem: the User needs a system to ask questions
-//solution: The program should be able to :
+/* 
+  *Author: U'el Azdrian small
+  *Date: Copyright, August 15 2016
+  *File Name: quiz.js
+  *Website: https://azdrian.github.io/simple-quiz-engine/
+*/
 
 //assign  variables : var correct = 0 etc;
 var pos = 0,
@@ -76,6 +80,7 @@ function renderQuestion() {
 	getId("submit").addEventListener('click', checkAnswer);
 }
 
+//checks the answer from the user's input against the correct answer
 function checkAnswer() {
 	choices = document.getElementsByName("choices");
 
