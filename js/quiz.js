@@ -65,7 +65,7 @@ function renderQuestion() {
 	choiceB  = questions[pos][2];
 	choiceC  = questions[pos][3];
 
-	testArea.innerHTML = "<div class='animate fadeInUp'>";
+	testArea.innerHTML += "<div class='animate fadeInUp'>";
 	testArea.innerHTML += "<h2>" + question + "</h2>";
 	testArea.innerHTML += "A: <input type = 'radio' name='choices' value= 'A'> " + choiceA + "<br>";
 	testArea.innerHTML += "B: <input type = 'radio' name='choices' value= 'B'> " + choiceB + "<br>";
