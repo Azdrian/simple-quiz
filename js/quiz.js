@@ -57,7 +57,7 @@ function renderQuestion() {
 	}
 
 	//question status: Lets the user know what question they are currently on
-	testStatus.innerHTML = "<p class='question-status'>Question " + (pos + 1) + " of " + questions.length + "</p>";
+	testStatus.innerHTML = "<p class='text-info question-status'>Question " + (pos + 1) + " of " + questions.length + "</p>";
 
 	//populate the TestArea div with questions
 	question = questions[pos][0];
