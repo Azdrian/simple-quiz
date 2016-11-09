@@ -6,7 +6,7 @@
   *Website: https://azdrian.github.io/simple-quiz-engine/
 */
 
-//assign  variables
+//assign variables
 var pos = 0,
 	testArea, testStatus, question, choice, choices, choiceA, choiceB, choiceC, correct = 0;
 
