@@ -66,12 +66,12 @@ function renderQuestion() {
 	choiceC  = questions[pos][3];
 
 	testArea.innerHTML = "<div class='animate fadeInUp'>";
-	testArea.innerHTML = "<h2>" + question + "</h2>";
+	testArea.innerHTML += "<h2>" + question + "</h2>";
 	testArea.innerHTML += "A: <input type = 'radio' name='choices' value= 'A'> " + choiceA + "<br>";
 	testArea.innerHTML += "B: <input type = 'radio' name='choices' value= 'B'> " + choiceB + "<br>";
 	testArea.innerHTML += "C: <input type = 'radio' name='choices' value= 'C'> " + choiceC + "<br>";
 	testArea.innerHTML += "<div class='text-center submit-answer'><input class='btn btn-primary btn-sm' type='button' id='submit' value='Submit Answer'/></div>";
-	testArea.innerHTML = "</div>";
+	testArea.innerHTML += "</div>";
 
 	// when submit button is pressed the checkAnswer() is called
 	getId("submit").addEventListener('click', checkAnswer);
