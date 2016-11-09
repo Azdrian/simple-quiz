@@ -69,7 +69,7 @@ function renderQuestion() {
 	testArea.innerHTML += "A: <input type = 'radio' name='choices' value= 'A'> " + choiceA + "<br>";
 	testArea.innerHTML += "B: <input type = 'radio' name='choices' value= 'B'> " + choiceB + "<br>";
 	testArea.innerHTML += "C: <input type = 'radio' name='choices' value= 'C'> " + choiceC + "<br>";
-	testArea.innerHTML += "<div class='text-center submit-answer'><input class='btn' type='button' id='submit' value='Submit Answer'/></div>";
+	testArea.innerHTML += "<div class='text-center submit-answer'><input class='btn btn-primary btn-sm' type='button' id='submit' value='Submit Answer'/></div>";
 
 	// when submit button is pressed the checkAnswer() is called
 	getId("submit").addEventListener('click', checkAnswer);
